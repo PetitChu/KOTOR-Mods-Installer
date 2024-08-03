@@ -1,0 +1,1392 @@
+{
+  "mods": [
+    {
+      "name": "Quicker TSLPatching",
+      "author": "xypherh",
+      "description": "This isn't a game mod, but rather a system workaround which makes it easier to install mods. This script will not work on Mac operating systems (neither Linux, I believe) not running Windows on a partition. Mods will frequently use the TSLPatcher installer, which often requires you to point the installer at your game's base installation directory. Sometimes the patchers do this automatically, but sometimes they fail, which is where this script comes in; it'll create a symlink to your KOTOR and KOTOR 2 install directories direct to your desktop, where the TSLPatcher defaults to pointing, so you only need to scroll down and click the folder to install without navigating through your system's file structure. The script is confirmed safe and once your install is complete you can delete the desktop folders with no problems.",
+      "category_tier": "",
+      "non_english_functionality": "",
+      "installation_method": "Windows Registry Edit",
+      "installation_instructions": "Run the script and follow the instructions it presents, choosing your KOTOR directory in the first popup window and your KOTOR 2 directory in the second.",
+      "url": ""
+    },
+    {
+      "name": "KOTOR Dialogue Fixes",
+      "author": "Salk & Kainzorus Prime",
+      "description": "In addition to fixing several typos, this mod takes the PC's dialogue—which is written in such a way as to make the PC sound constantly shocked, stupid, or needlessly and overtly evil—and replaces it with more moderate and reasonable responses.",
+      "category_tier": "Immersion / 1 - Essential",
+      "non_english_functionality": "NO",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Move the dialogue.tlk file from the 'PC Response Moderation' folder into the main KOTOR directory (where the executable file is).",
+      "url": ""
+    },
+    {
+      "name": "Character Startup Changes",
+      "author": "jonathan7, patch by A Future Pilot",
+      "description": "In a normal KOTOR start, your character's feats are pre-selected. This mod changes the initial level-up so that the number of feat points given is determined by class, but you can choose the feats you wish to invest into.",
+      "category_tier": "Mechanics Change / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher, Loose-File Patch",
+      "installation_instructions": "Make sure you don't forget to install the patch!",
+      "url": ""
+    },
+    {
+      "name": "JC's Minor Fixes",
+      "author": "JCarter426",
+      "description": "KOTOR, like with any game, has a slew of little oversights, or things BioWare messed up by accident. The goal of this mod is to fix most of those small things not addressed in other, larger mods.",
+      "category_tier": "Bugfix & Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Move everything from the Straight Fixes, Resolution Fixes, and Aesthetic Improvements folders to your Override. Move everything from the 'Things what bother me' folder as well, EXCEPT the files for the Sith uniform changes: N_AdmrlSaulKar.mdl, N_AdmrlSaulKar.mdx, N_SithComF.mdl, N_SithComF.mdx, N_SithComM.mdl, and N_SithComM.mdx (in other words, move all 'MAN26' files and the two 'plc_kiosk' files at the bottom). The fix in the Bugfix folder will be applied by a later mod, so you can also skip it.",
+      "url": ""
+    },
+    {
+      "name": "Ultimate Character Overhaul",
+      "author": "ShiningRedHD",
+      "description": "Ultimate Character Overhaul is a comprehensive AI-upscale of every character and piece of equipment in the game. Unlike previous AI upscales, the Ultimate series has no transparency problems while still retaining reflections on character textures, all without any additional steps required. This is an incredibly high-quality mod, and ShiningRed has even gone through the trouble to make compatibility patches for the mod builds, upscaling some of the later textures we use!",
+      "category_tier": "Graphics Improvement / 1 - Essential",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "For now, ignore all patches (those will be installed later). Just download the main package, and MAKE SURE it is the .tpc file version! I recommend the 2k version for the best combination of performance and quality. Before moving the files to the override folder, be sure to delete the following: PFBI01 through PFBI04, and PMBI01 through PMBI04.",
+      "url": ""
+    },
+    {
+      "name": "Ajunta Pall Appearance",
+      "author": "Silveredge9, Patch by A Future Pilot",
+      "description": "This mod reskins NPC specter Ajunta Pall to have a unique appearance that matches the honorary statue in his tomb.",
+      "category_tier": "Appearance Change & Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod, TSLPatcher Patch",
+      "installation_instructions": "Download the main mod and ONLY look at the Transparent/Non-Transparent folders. Move your preferred textures from one of those folders (or one of the sub-folders for optional Sith eyes) to your override, then download and run the patch to finish applying changes. Do NOT move any of the files in the main mod folder!",
+      "url": ""
+    },
+    {
+      "name": "KOTOR Community Patch",
+      "author": "Various Authors; Darth Parametric, JCarter426 & A Future Pilot Collate",
+      "description": "An ambitious compilation intending to be a comprehensive bugfix mod for the original game, the KOTOR Community Patch combines hundreds of various fixes and improvements from over a dozen other mods, as well as fixes put together by AFP, DP and JC on their own. With bugfixes as important to KOTOR as TSLRCM's are to KOTOR 2, I can't recommend its use highly enough. Please make sure to NOT READ the list of changes included within the mod, however; due to its size and composite nature, I can't censor information for the whole thing, and there's a lot of spoilers in it if you read the readme fully!",
+      "category_tier": "Bugfix, Graphics Improvement & Immersion / 1 - Essential",
+      "non_english_functionality": "NO",
+      "installation_method": "HoloPatcher Mod",
+      "installation_instructions": "Be aware that this mod is the only one in the builds that is installed via the HoloPatcher, a new install method. For your purposes as the end user, it functions almost identically to the TSLPatcher. Once you've installed the mod, go into your override directory and, if present, delete the file 'LKA_Leaf03.tpc' before proceeding.",
+      "url": ""
+    },
+    {
+      "name": "Ultimate Korriban",
+      "author": "ShiningRedHD",
+      "description": "In addition to fully upscaling all of the NPCs and equipment in the game, ShiningRed has also produced a series of mods using the same techniques that update all the planet textures. This mod upscales the Sith world of Korriban.",
+      "category_tier": "Graphics Improvement / 1 - Essential",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Download the .tpc variant of the mod. Don't worry about it saying it requires Kexikus's skyboxes, that mod will be installed later.",
+      "url": ""
+    },
+    {
+      "name": "Ultimate Kashyyyk",
+      "author": "ShiningRedHD",
+      "description": "This mod upscales the forest-world of Kashyyyk, home of the Wookiees.",
+      "category_tier": "Graphics Improvement / 1 - Essential",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Download the .tpc variant of the mod.",
+      "url": ""
+    },
+    {
+      "name": "Ultimate Tatooine",
+      "author": "ShiningRedHD",
+      "description": "This mod upscales the iconic desert world Tatooine.",
+      "category_tier": "Graphics Improvement / 1 - Essential",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Download the .tpc variant of the mod.",
+      "url": ""
+    },
+    {
+      "name": "Ultimate Dantooine",
+      "author": "ShiningRedHD",
+      "description": "This mod upscales the peaceful retreat of Dantooine.",
+      "category_tier": "Graphics Improvement / 1 - Essential",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Download the .tpc variant of the mod.",
+      "url": ""
+    },
+    {
+      "name": "Ultimate Endar Spire +",
+      "author": "ShiningRedHD",
+      "description": "This mod is a compilation upscale which includes upscales for three different areas.",
+      "category_tier": "Graphics Improvement / 1 - Essential",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Download the .tpc variant of the mod. I AM NOT ABLE TO REUPLOAD THIS MOD TO CENSOR SPOILERS—I STRONGLY RECOMMEND LOOKING AT JUST THE FIRST FEW SCREENSHOTS FOR AN INDICATION OF QUALITY, THEN INSTALLING!",
+      "url": ""
+    },
+    {
+      "name": "Ultimate Manaan",
+      "author": "ShiningRedHD",
+      "description": "This mod upscales the water-world Manaan.",
+      "category_tier": "Graphics Improvement / 1 - Essential",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Download the .tpc variant of the mod.",
+      "url": ""
+    },
+    {
+      "name": "Ultimate Unknown World",
+      "author": "ShiningRedHD",
+      "description": "This mod upscales the mysterious Lehon.",
+      "category_tier": "Graphics Improvement / 1 - Essential",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Download the .tpc variant of the mod. Delete LUN_blst01.tpc and LUN_blst02.tpc before moving to your override.",
+      "url": ""
+    },
+    {
+      "name": "Ultimate Taris",
+      "author": "ShiningRedHD",
+      "description": "This mod upscales the sprawling world-city of Taris.",
+      "category_tier": "Graphics Improvement / 1 - Essential",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Download the .tpc variant of the mod.",
+      "url": ""
+    },
+    {
+      "name": "Duncan on Manaan",
+      "author": "Seamhainn",
+      "description": "This mod restores content which was left on the disk but was never implemented which would have let the player interact with a duelist they meet on their first planet later on in the story.",
+      "category_tier": "Restored Content / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Consistent Conditioning",
+      "author": "Sdub",
+      "description": "The feat tree for Conditioning has icons which are a bit visually inconsistent, which can make it easy to miss the tree if scrolling quickly. This mod makes their visuals uniform.",
+      "category_tier": "Appearance Change / 4 - Optional",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "HD Pazaak Cards",
+      "author": "CarthOnasty",
+      "description": "Pazaak is basically space blackjack, except the AI completely cheats and you can throw down cards that change your totals. It might not be your thing, but hey, even if you lose your ass constantly to the cheating AI, at least you can do it while looking at well-textured cards.",
+      "category_tier": "Graphics Improvement / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Move all the loose files to the Override. If you'd like KOTOR 2-style specialty cards (green-colored), move the files from the 'green' folder to the override folder as well.",
+      "url": ""
+    },
+    {
+      "name": "Scoundrel Trousers",
+      "author": "Darkbirdie",
+      "description": "Fixes the trouser texture of the female scoundrel's default clothing. By default it's pulled in and up.",
+      "category_tier": "Bugfix / 4 - Optional",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Republic Soldier Fix",
+      "author": "JCarter426",
+      "description": "Fixes the low-resolution default female Republic soldier skin, as well as fixing issues with the male model and making the Republic uniform the default clothing for the Soldier-class character. The Soldier class's vanilla default clothing is horrible enough that this mod's worth it based on that change alone.",
+      "category_tier": "Graphics Improvement & Appearance Change / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Move the files from both the Override and Optional folders to your game's override folder.",
+      "url": ""
+    },
+    {
+      "name": "Republic Soldier's New Shade",
+      "author": "ebmar",
+      "description": "By default, despite being what looks like a mix of metallic and polymer elements, the Republic armor has no shine effect ingame. This mod fixes that so it's realistically reflective.",
+      "category_tier": "Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Multi-Run TSLPatcher",
+      "installation_instructions": "If using both components of JC's Republic Soldier Fix mod, install Options 3 and 5; if using only the main component of JC's mod, install only Option 5; if not using JC's mod, install the Main file and Option 2.",
+      "url": ""
+    },
+    {
+      "name": "HD PC Portraits",
+      "author": "ndix UR",
+      "description": "ndix strikes again with a wonderful upscale that takes all the default player character portraits and sharpens them without altering their appearance. This mod is great for keeping a unified sense of high graphical fidelity, especially when playing in widescreen.",
+      "category_tier": "Graphics Improvement / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "PMHA05 HD",
+      "author": "Dark Hope",
+      "description": "This is the first in a series of high-resolution player heads from Dark Hope, complete with full Dark Side transitions and new player portraits. We aren't going to use all of the HD versions she made—I've been careful to only select those I think fit closely with the original player head, as well as making enough clear improvements that any aesthetic alterations are acceptable trade-offs for the improved texture quality. This specific texture reskins the fifth Asian male head preset, including new facial hair.",
+      "category_tier": "Graphics Improvement & Appearance Change / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "PMHA02 HD",
+      "author": "Dark Hope",
+      "description": "This Dark Hope retexture reskins the second Asian male head preset. It is mostly a straight graphics improvement, with minimal deviation from the default appearance.",
+      "category_tier": "Graphics Improvement / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "PMHA01 HD",
+      "author": "Dark Hope",
+      "description": "This Dark Hope retexture reskins the first Asian male head preset. It is mostly a straight graphics improvement, but features a very minimalist DS transition.",
+      "category_tier": "Graphics Improvement / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "PMHB05 HD",
+      "author": "Dark Hope",
+      "description": "This Dark Hope retexture reskins the fifth black male head preset. It is mostly a straight graphics improvement, but does alter the default skin tone and has a minimalist DS transition.",
+      "category_tier": "Graphics Improvement / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "PMHB01 HD",
+      "author": "Dark Hope",
+      "description": "Alright I'm not going to be cutesy, this basically makes the first Black male head preset into 'Ye. Why, I'm not sure. But I actually really like the texture work on it.",
+      "category_tier": "Graphics Improvement & Appearance Change / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "PFHB03 HD",
+      "author": "Dark Hope",
+      "description": "This Dark Hope retexture reskins the third black female head preset. It is a major improvement to her texture, but does feature a darker skin tone and a more minimalist DS transition.",
+      "category_tier": "Graphics Improvement / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "PFHA03 HD",
+      "author": "Dark Hope",
+      "description": "This Dark Hope retexture reskins the third Asian female head preset. It is mostly a straight graphics improvement, but features a very minimalist DS transition.",
+      "category_tier": "Graphics Improvement / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "PFHC05 HD",
+      "author": "Dark Hope",
+      "description": "This Dark Hope retexture reskins the fifth Caucasian female head preset. Dark Hope took some liberties here, adding a more detailed hair ornament and a tattoo to the side of the player's head, but I really enjoy the changes.",
+      "category_tier": "Graphics Improvement & Appearance Change / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "PFHB01 HD",
+      "author": "Dark Hope",
+      "description": "This Dark Hope retexture reskins the first black female head preset. It is mostly a straight graphics improvement, but does feature a darker skin tone.",
+      "category_tier": "Graphics Improvement / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "PFHB05 HD",
+      "author": "Dark Hope",
+      "description": "This Dark Hope retexture reskins the fifth black female head preset. It is mostly a straight graphics improvement, but does feature a darker skin tone.",
+      "category_tier": "Graphics Improvement / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "PFHB02 Eye Fix",
+      "author": "Darth Parametric",
+      "description": "The eye overlays on the second black female head were input incorrectly and become offset as the player transitions to the Dark Side, creating the appearance of duplicated irises. This mod fixes that, as well as offering an upscale option which improves the base appearance of the head.",
+      "category_tier": "Bugfix & Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "I recommend using the upscale option.",
+      "url": ""
+    },
+    {
+      "name": "High-Poly Grenades",
+      "author": "MadDerp",
+      "description": "Fixes the models of the grenades to make them more spherical, and therefore ensure the basegame textures fit on them more accurately.",
+      "category_tier": "Graphics Improvement / 4 - Optional",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "HD Gizka",
+      "author": "Emperor Turnip",
+      "description": "Improves the base texture of the Gizka creature.",
+      "category_tier": "Graphics Improvement / 4 - Optional",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "The file has the wrong readme; move all the files in the Creatures folder, except for the readme and Gizka.jpg, to the override.",
+      "url": ""
+    },
+    {
+      "name": "HD Rakghouls",
+      "author": "Emperor Turnip",
+      "description": "Improves the base texture of the Rakghoul creature.",
+      "category_tier": "Graphics Improvement / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Gammorean Reskin Pack",
+      "author": "Quanon",
+      "description": "Improves and upscales the textures of the game's Gammoreans.",
+      "category_tier": "Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "War Droids HD",
+      "author": "Dark Hope",
+      "description": "A snazzy new skin for the game's humanoid war droids, in the vanilla style.",
+      "category_tier": "Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "HD Cleaning Droids",
+      "author": "Dark Hope",
+      "description": "Reskins some mobile cleaning droids, matching vanilla but increasing the quality.",
+      "category_tier": "Graphics Improvement / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Better Twi'lek Heads",
+      "author": "Ashton Scorpius",
+      "description": "Unlike female Twi'lek, male Twi'lek are supposed to have ears. Operative word: supposed to. Their ears are barely visible at all in KOTOR, which this mod fixes using TOR ear geometry.",
+      "category_tier": "Appearance Change / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "HoloPatcher Mod",
+      "installation_instructions": "Choose whether to use the slim or original necks; your preference.",
+      "url": ""
+    },
+    {
+      "name": "HD Twi'lek Females",
+      "author": "Dark Hope",
+      "description": "Adds higher-resolution default clothing, lekku, faces and skin to female twi'lek in the game. Please note that the default screenshots all show a new texture which I don't like and don't use—the examples of the texture versions we'll be using are in the mod description.",
+      "category_tier": "Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Download the 'hd_twilek_female.rar' file, and ignore the other version.",
+      "url": ""
+    },
+    {
+      "name": "Thigh-High Boots for Twi'lek",
+      "author": "DarthParametric",
+      "description": "In KOTOR, by default the female Twi'lek's thigh-high boots are painted on the character's texture rather than added to their equipped clothing as an item, which would give them realistic three-dimensional depth and higher resolution. This modder's resource serves to add the boots as an equipped object.",
+      "category_tier": "Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Unzip the mod, enter the NPC Replacement folder, and move the six files within (NOT including the optional folder or its contents) to the override.",
+      "url": ""
+    },
+    {
+      "name": "Shaleena/Lashowe Mouth Fix",
+      "author": "Ashton Scorpius",
+      "description": "Fixes a bug with two female NPC heads which caused their upper teeth to be invisible during dialogue.",
+      "category_tier": "Bugfix / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Calo Nord Recolor",
+      "author": "Watcher07",
+      "description": "Recolors the famous bounty hunter Calo Nord's clothing to be more muted in tone; you wouldn't expect a famous bounty hunter to run around in bright colors, but in vanilla Calo sure loved to. Note that this does not allow you to play as Calo, nor does it add the custom blaster skin or republic uniform skin seen in the screenshots.",
+      "category_tier": "Appearance Change / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "HD Darth Malak",
+      "author": "Dark Hope",
+      "description": "Drastically improves the overall graphical quality of Malak, the game's main antagonist. The screenshots really don't do this mod justice, it's excellent.",
+      "category_tier": "Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Do not download the .tga file. Move the main file in the directory to your override folder, then the files from the 'Malak (Blue Eyes)' folder.",
+      "url": ""
+    },
+    {
+      "name": "Darth Bandon HD",
+      "author": "Dark Hope",
+      "description": "Drastically improves the overall graphical quality of Darth Bandon, a Sith who first waylays you in the prologue.",
+      "category_tier": "Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "HD Vrook",
+      "author": "Dark Hope, edited by Publicola",
+      "description": "Drastically improves the overall graphical quality of Jedi Master Vrook Lamar, one of the many Jedi you'll meet during the game.",
+      "category_tier": "Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "HD UI Elements",
+      "author": "Sdub",
+      "description": "Improves a few miscellaneous textures, including planet textures on the galaxy map and companion textures in the character selection screen. Many of the companion selection screen textures will be overwritten with custom ones from subsequent mods, but Sdub's variants are miles ahead of vanilla. Some information has been censored to prevent spoilers.",
+      "category_tier": "Graphics Improvement / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Install just the random UI elements download, not the optional T3-M4 request.",
+      "url": ""
+    },
+    {
+      "name": "HD NPC Portraits",
+      "author": "ndix UR",
+      "description": "A companion to his PC portrait rework, HD NPC Portraits takes all the companion portraits and drastically improves their quality without modifying the underlying aesthetic.",
+      "category_tier": "Graphics Improvement / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Download the V2 option. Ignore the 'V1 Looks' option.",
+      "url": ""
+    },
+    {
+      "name": "Children Fixes",
+      "author": "N-DReW25",
+      "description": "A small mod to fix a hand coloration mismatch on female children.",
+      "category_tier": "Bugfix / 4 - Optional",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "I recommend the 'tanned hands' option.",
+      "url": ""
+    },
+    {
+      "name": "JAO",
+      "author": "Stormie97, Patch by JCarter",
+      "description": "This mod is an all-in-one appearance and immersion overhaul for a companion. Some information has been censored to prevent spoilers.",
+      "category_tier": "Appearance Change, Immersion & Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Juhani Cathar Head",
+      "author": "Miro42",
+      "description": "NPC Juhani's head model has always been a disappointing reminder of the limitations of low resolution. This mod makes the best attempt of any I've seen so far to portray her as truly Cathar, without going to extremes or failing to overcome the limitations of her original facial design.",
+      "category_tier": "Appearance Change & Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Korriban: Back in Black",
+      "author": "JCarter426",
+      "description": "When you reach the planet Korriban, you'll find an academy for Force-users there. All the students are nonsensically dressed up in officer's outfits and not proper robes, though! Thankfully, this mod fixes that.",
+      "category_tier": "Appearance Change & Bugfix / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher Mod",
+      "installation_instructions": "If running the Community Patch (you should be), install the Community Patch-Compatible install option; otherwise, select Basic. If you would like Master Uthar or Yuthura Ban (the two top Sith at the academy) to wear alternate outfits instead of robes, re-run the patcher to select your preferred options AFTER running the initial install.",
+      "url": ""
+    },
+    {
+      "name": "Cloaked Jedi Robes",
+      "author": "JCarter426",
+      "description": "The robes in KOTOR 2 are of a more billowing, loose style than the tight-fitting and narrow robes that KOTOR usually features, and seem to be the fanbase's preference. This mod migrates the KOTOR 2 robes into the original game, while still leaving options to retain some of the aesthetic choices of vanilla.",
+      "category_tier": "Appearance Change / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher Mod",
+      "installation_instructions": "When installing, use the screenshots provided to determine which robe style you would like to use. Aesthetically, I strongly recommend the Brown-Red-Blue Alternative.",
+      "url": ""
+    },
+    {
+      "name": "JC's Jedi Tailor",
+      "author": "JCarter426",
+      "description": "It's very annoying when you've got your party together and you want to show your swag off with color-coordinated outfits, but the game only gives you gaudy blue robes. Worry no longer! JC has given us a solution in the form of a skilled Trandoshan tailor, who will dye your robes on demand—it's also compatible with Cloaked Jedi Robes! He even has some very well-written and lore-friendly dialogue about current events.",
+      "category_tier": "Immersion / 4 - Optional",
+      "non_english_functionality": "NO",
+      "installation_method": "TSLPatcher Mod",
+      "installation_instructions": "If you use Cloaked Jedi Robes's 100% Brown option, make sure to install the 100% Brown compatibility patch after the main mod installation (re-run the executable).",
+      "url": ""
+    },
+    {
+      "name": "Qel-Droma Reskin",
+      "author": "Effix",
+      "description": "This mod reskins the Qel-Droma robes to look closer to their canon counterparts, while also improving their general appearance and making them compatible with JC's Jedi Tailor.",
+      "category_tier": "Immersion, Appearance Change & Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Quanon's HK-47",
+      "author": "Quanon",
+      "description": "Improves the appearance of the droid HK-47 by adding more detail, dimming the shine of his armor, and generally making his appearance more thematically consistent.",
+      "category_tier": "Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Delete PO_phk47.tga before moving the two other files to the override.",
+      "url": ""
+    },
+    {
+      "name": "HD Astromech Droids",
+      "author": "Dark Hope",
+      "description": "Vastly improves the skins of all astromech droids in the game.",
+      "category_tier": "Graphics Improvement / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Delete po_pt3m33.tga before moving the files to your override.",
+      "url": ""
+    },
+    {
+      "name": "HD Protocol Droids",
+      "author": "Dark Hope",
+      "description": "Vastly improves the skin of all the protocol droids encountered ingame.",
+      "category_tier": "Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "HD Carth Onasi",
+      "author": "Dark Hope",
+      "description": "Vastly improves the skin and default clothes textures of one of your companions, Carth. Note that, for our purposes, we do not use this mod's changes to Carth's head or face.",
+      "category_tier": "Graphics Improvement / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Download only the file which adds clothing, unless you like the head & face changes the mod makes. Delete PO_pcarth3.tga before moving the three other files to the override.",
+      "url": ""
+    },
+    {
+      "name": "HD Canderous Ordo",
+      "author": "Dark Hope",
+      "description": "Vastly improves the skin and default clothes textures of one of your companions. Note that, for our purposes, we do not use this mod's changes to Canderous's head or face; we use the head textures of the following mod.",
+      "category_tier": "Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod & Patch",
+      "installation_instructions": "Download only the version marked 'new clothes,' which includes both clothing and body textures. We get our head model from the below mod. Remember to also download the patch.",
+      "url": ""
+    },
+    {
+      "name": "Quanon's Canderous",
+      "author": "Quanon",
+      "description": "Vastly improves the head and face texture of Canderous. Note that, for our purposes, we do not use this mod's changes to Canderous's body or clothes; we use those textures from the previous mod.",
+      "category_tier": "Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Move only P_CandH01.tga to your override.",
+      "url": ""
+    },
+    {
+      "name": "Jolee HD",
+      "author": "Dark Hope",
+      "description": "Vastly improves the clothing and body texture quality of the companion Jolee Bindo. We will download the head seen in this mod's screenshots in the following download.",
+      "category_tier": "Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Fen's Jolee",
+      "author": "Fenharel",
+      "description": "Do your best to ignore the lighting of the screenshots. This mod actually looks very good, at least for its head textures. That's all we'll be using it for, to improve the aesthetics of the old hermit Jolee Bindo.",
+      "category_tier": "Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Download the default, not the iconic recolor. Move ONLY P_joleeh01.tga and P_joleeh01.txi to your override.",
+      "url": ""
+    },
+    {
+      "name": "Zaalbar HD",
+      "author": "Dark Hope",
+      "description": "An improvement of Zaalbar the Wookiee's default texture, especially his hair and coloration.",
+      "category_tier": "Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Delete po_pzaalbar3.tga before moving the files to your override.",
+      "url": ""
+    },
+    {
+      "name": "Sith Uniform Reformation",
+      "author": "Heyorange",
+      "description": "If you ever want a window into incredibly minor things that I think are really cool, this is the cream of the crop. Vanilla KOTOR doesn't really have much rhyme or reason behind differentiating the appearance of the Sith soldiers you encounter, except for rule of cool. This mod makes the clothing of each rank clear and consistent, with an established breakdown of epaulettes, as well as rank and regiment insignias.",
+      "category_tier": "Appearance Change / 3 - Suggested",
+      "non_english_functionality": "YES, however some text will be in English or lines of dialogue may be blank.",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Install the default option, not one of the latter two.",
+      "url": ""
+    },
+    {
+      "name": "Star Map Revamp",
+      "author": "Carth0nasty",
+      "description": "Reskins several ancient alien devices you encounter in the course of the game, with similar improvements to the map of the galaxy the star maps display.",
+      "category_tier": "Graphics Improvement / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Background Improvements",
+      "author": "Dark Hope",
+      "description": "Reskins some of the ships seen in the background of the game. By default their appearances are awful, because the players were never meant to look too closely at them.",
+      "category_tier": "Graphics Improvement / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Hi-Res Ebon Hawk",
+      "author": "Vurt",
+      "description": "Reskins your vessel the Ebon Hawk to extreme high resolution.",
+      "category_tier": "Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Once the mod is extracted, copy the file 'LDA_EHawk01' and make a duplicate of it. Rename this duplicate to 'M36_EHawk01.tga' and then move all files to the override.",
+      "url": ""
+    },
+    {
+      "name": "Ebon Hawk Repairs",
+      "author": "PapaZinos",
+      "description": "Fixes quite a few holes in the model of the Ebon Hawk, your ship. No gaps!",
+      "category_tier": "Bugfix / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Move the files from 'to override' to your override folder, then also move the files from the Animation Fix folder and overwrite when prompted.",
+      "url": ""
+    },
+    {
+      "name": "HQ Cockpit Skyboxes",
+      "author": "Sithspecter",
+      "description": "Vastly improves the quality of exterior areas as seen from the cockpit of the Ebon Hawk.",
+      "category_tier": "Graphics Improvement / 2 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Install the version of the mod you would like based upon how detailed you want the cockpit skyboxes to appear. Keep in mind that load time into the Ebon Hawk could be significantly increased if using very large cockpit textures—I recommend the Large texture option for the best balance of quality and size/performance.",
+      "url": ""
+    },
+    {
+      "name": "Animated Panel",
+      "author": "Salk, Sith Holocron, Dark Hope and Selphadur",
+      "description": "Beautifully upscales and animates one of the main Ebon Hawk panels.",
+      "category_tier": "Graphics Improvement / 2 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Taris Reskin",
+      "author": "Quanon",
+      "description": "Reskins the streets of Taris, a run-down world-spanning city, to resemble a more realistically grimy and unkempt appearance. Also gives certain locations, like a palatial estate on the planet, a more grandiose, elegant appearance.",
+      "category_tier": "Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Don't install the included modifications to the Dantooine Estates or Sith Base. You will additionally need to delete the following files before moving the mod content to the override folder: LTS_Bsky01.tga, LTS_Bsky02.tga, and (sorted by name) LTS_sky0001.tga through LTS_SKY0005.tga.",
+      "url": ""
+    },
+    {
+      "name": "High Quality Starfields",
+      "author": "Kexikus",
+      "description": "Upscales and beautifies the various starfields encountered throughout the game. Some information has been censored to prevent spoilers.",
+      "category_tier": "Graphics Improvement / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "HQ Skyboxes II",
+      "author": "Kexikus",
+      "description": "Massively improves and increases the resolution of all skyboxes for all planets in the game.",
+      "category_tier": "Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Unless using one of the mods for which Kex has developed skyboxes (not recommended, as they're almost certainly not compatible with this build) simply download the 'HQSkyboxesII_K1.7z' file.",
+      "url": ""
+    },
+    {
+      "name": "Hires Beam Effects",
+      "author": "InSidious",
+      "description": "An ambitious effect replacer for most 'beam' style attacks in the game. Don't let the still screenshots fool you, this is an extremely well-made mod that looks excellent compared to the original textures when in-game.",
+      "category_tier": "Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "HD Fire & Ice",
+      "author": "Cinder Skye",
+      "description": "Makes further improvements to the fire and ice textures above and beyond those included in the above mod.",
+      "category_tier": "Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Animated Energy Shields",
+      "author": "Dark Hope",
+      "description": "Probably one of the best mods I never thought about having before. Modernizes the incredibly unwieldy and intrusive old energy shield graphics, which were both ugly and interfered with the player's vision, with new animated textures that are simultaneously more modern, less intrusive, and higher-quality.",
+      "category_tier": "Appearance Change & Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Animated Cantina Sign",
+      "author": "Sith Holocron",
+      "description": "Animates some cantina signs which were previously stationary.",
+      "category_tier": "Graphics Improvement / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Terminal Texture",
+      "author": "Dark Hope",
+      "description": "Beside HD upscales, the old terminal texture looked decidedly out-of-place. This facelift is high-quality, animated and faithful to the original aesthetic.",
+      "category_tier": "Appearance Change & Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "HD Workbench",
+      "author": "Dark Hope",
+      "description": "Upgrades the visuals of the game's crafting benches, and also animates the computer interface terminal they have.",
+      "category_tier": "Graphics Improvement / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Animated Swoop Monitors",
+      "author": "ebmar",
+      "description": "Swoop racing is a bit like podracing, which means that viewscreens for watching the races should probably, I don't know, not be still-frames? Thankfully, this mod solves the problem by making them at least slideshow-animated.",
+      "category_tier": "Immersion / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Loadscreens in Color",
+      "author": "Sithspecter",
+      "description": "Colorizes vanilla's blue-grey loadscreens, to add a bit of life to module changes.",
+      "category_tier": "Appearance Change & Immersion / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Reflective Lightsaber Blades",
+      "author": "Crazy34",
+      "description": "With this mod, Crazy34 walked into the community, slammed down one of the most impressive mods ever made for this game, and dared us to do better. Not only have they split the blade texture in two to allow for lightsabers with cores of a different color (currently unsupported in the build release, but hopefully coming soon), they've also added dynamic reflections to each and every lightsaber across every area of the game. When you're fighting a Dark Jedi, you're going to see your faces bathed in shifting colors, fading and brightening as you swing your lightsabers; when you ignite your saber in a hallway, it will reflect on the floor and walls, and will realistically increase in intensity as the blade draws nearer to the surface. This is an incredible project, and easily one of the most important—and impressive—mods ever released for KOTOR. In the next few years, it could completely change the face of lightsaber modding.",
+      "category_tier": "Appearance Change, Immersion & Graphics Improvement / 1 - Essential",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher Mod",
+      "installation_instructions": "Install only the Standard option.",
+      "url": ""
+    },
+    {
+      "name": "Blaster Visual Effects",
+      "author": "JCarter426",
+      "description": "Sharpens the color and texture of blaster bolts fired in the game.",
+      "category_tier": "Graphics Improvement / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Move everything from the override folder to your game's override directory, unless you would like yellow/green disruptors, in which case those files should be moved from the optional folder after moving all loose files to the override first.",
+      "url": ""
+    },
+    {
+      "name": "Wookiee Warblade Fix",
+      "author": "RedRob",
+      "description": "A reuploaded variant of an older fix by RedRob, this mod elongates the handle of the Wookiee Warblade weapon so that the player no longer tries to grip it directly with their hands.",
+      "category_tier": "Bugfix / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Kill The Czerka Guard",
+      "author": "TamerBill",
+      "description": "If you're feeling a bit sociopathic, this mod lets you kill a particularly rude Czerka employee on Kashyyyk.",
+      "category_tier": "Added Content / 3 - Suggested",
+      "non_english_functionality": "NO",
+      "installation_method": "TSLPatcher Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Korriban Workbench",
+      "author": "InSidious",
+      "description": "By default, there's no workbench on the planet Korriban, which can result in some tedious back-and-forth between planets if you want to switch out crystals or upgrade some armor. This mod fixes that.",
+      "category_tier": "Added Content / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Senni Vek Restoration",
+      "author": "N-DReW25",
+      "description": "Restores a character who begins a questline to the sequence which later concludes the quest. Some information has been censored to prevent spoilers.",
+      "category_tier": "Restored Content / 4 - Optional",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Ixgil the Bith",
+      "author": "Crimson Knight",
+      "description": "The definition of modding hubris. When the power to change the universe at the tips of one's fingers leads a man to spend more time making a mod than the combined thousands of users who ever download it will even see what he did on screen. There's a wrong soundset. This mod fixes it. The character dies about 5 seconds later. To even download this mod is to question one's sanity.",
+      "category_tier": "Bugfix / 4 - Optional",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Hidden Bek Control Room",
+      "author": "N-DReW25",
+      "description": "In the PC release, there's a locked door in a gang compound on Taris which was probably never intended to be closed off to the player. This mod unlocks it and restores some limited dialogue with its occupant provided you initiate a certain sequence.",
+      "category_tier": "Restored Content / 4 - Optional",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "JDR",
+      "author": "Leilukin",
+      "description": "Inexplicably, a particular optional companion has dialogue to ask about each planet you visit which was removed, as well as special conversations about two other unique circumstances the party finds themselves in. This mod restores them all. Some information has been censored to prevent spoilers.",
+      "category_tier": "Restored Content / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Vision Enhancement",
+      "author": "JCarter426",
+      "description": "In the course of the game, the player character has several Force-influenced visions. There were some problems with these by default, though, namely that they always happened on your ship (even before you get your ship!), and your character will wear whatever clothes they currently have equipped to bed, even if it's heavy armor. This mod fixes both oversights.",
+      "category_tier": "Appearance Change / 3 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "LDD",
+      "author": "Revanator",
+      "description": "In the vanilla game, during a brief sequence where you play as a companion, when your controlled companion speaks to other NPCs they don't have any unique dialogue. This mod gives them new flavor dialogue which matches their personalities. Some information has been censored to prevent spoilers.",
+      "category_tier": "Added Content & Immersion / 3 - Suggested",
+      "non_english_functionality": "NO",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Balanced Pazaak",
+      "author": "A Future Pilot",
+      "description": "Pazaak (basically blackjack with bonus cards) in the original KOTOR features AI that cheat, badly. While there's no way to prevent the computer from favoring NPCs in draws, there is a way to drastically reduce their ability to help themselves, and that's to give them all decks one tier lower than what their difficulty says they should have.",
+      "category_tier": "Mechanics Change / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Camera Replacement",
+      "author": "LDR",
+      "description": "By default, the camera angle inside the Ebon Hawk is ridiculously close to the PC, which not only makes the PC take up the majority of the screen, it also makes it very hard to see around you. This mod replaces the Ebon Hawk camera angle with one closer to the camera angles present in the rest of the game.",
+      "category_tier": "Mechanics Change / 1 - Essential",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Improved Grenades",
+      "author": "jc2",
+      "description": "In the base-game, grenades typically aren't very useful after the first few planets. This mod seeks not only to increase the value of grenades throughout the game but to also make the enemies wielding them more dangerous by tying the total damage output of a grenade to the demolitions stat of the thrower.",
+      "category_tier": "Mechanics Change / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Move the two files from the 'Vanilla Increased Radius +Demo' folder to the override.",
+      "url": ""
+    },
+    {
+      "name": "Repeater Attacks Restoration",
+      "author": "R2-X2",
+      "description": "Blasters in the original KOTOR are underpowered all-around, but out of the entire laughingstock none is worse than blaster repeaters, which cost more in return for equivalent damage and less crit chance. It turns out that these weapons were originally supposed to have two attack rounds, but BioWare didn't have the time or know-how to implement this before the game went gold. This mod restores this function, with only a few instances where it doesn't work due to hardcoded scripting.",
+      "category_tier": "Mechanics Change & Bugfix / 1- Essential",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "The two optional files included in this mod package are untested with the builds and, from a balance perspective, not recommended.",
+      "url": ""
+    },
+    {
+      "name": "Dark Sacrifice",
+      "author": "JCarter426",
+      "description": "In vanilla, with some small variation KOTOR has a binary ending: Light Side or Dark Side. But it wasn't always so—until quite late in development a very unique ending for Dark Side players who romanced Carth, one of your first companions, was still being developed, and voice lines were even recorded for it. For unknown reasons this ending was cut, but with this mod it has now been restored. You are not locked into this alternate ending, it's only presented as an option which your character may choose. More than this can't be revealed to avoid spoilers, but do note that unless you intend to play as a DS character capable of romancing Carth, this mod will not present any changes. Please also note, in vanilla only females can romance Carth, but a third-party mod by Leilukin not present in this guide makes Carth able to be romanced by male characters, and is compatible with this mod.",
+      "category_tier": "Restored Content / 1 - Essential",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Saber Throw Knockdown",
+      "author": "uwadmin12",
+      "description": "By default, the 'Throw Lightsaber' power is a little weak. Not only does it seem like it takes forever, it does much less damage in a much smaller AoE than other powers available to the party Jedi! The goal of this mod is giving Advanced Throw Lightsaber some additional functionality that makes using it worthwhile, namely the inclusion of a knockdown effect on the primary target if that target fails to pass a saving throw. This can make the ability useful for screening particular zones while also dealing damage—still somewhat less effective than most other powers, but with more guaranteed damage.",
+      "category_tier": "Mechanics Change / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Sunry Enhancement",
+      "author": "FallenGuardian",
+      "description": "At one point in the game the player is called upon to investigate a murder mystery. They find a recording of events, but in-game this recording is presented to the player as pure text. This mod renders the recording as a cutscene the player can actually watch.",
+      "category_tier": "Added Content & Immersion / 2 - Recommended",
+      "non_english_functionality": "NO",
+      "installation_method": "TSLPatcher Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Davik Slave Change",
+      "author": "Leilukin",
+      "description": "2003 was a different time, but this mod really proves that. In vanilla, if you request a 'massage' from some slaves—which has some sexual implications in Star Wars—you get nothing more than a disgusted remark from some companions. You can even threaten them without consequence. This mod properly amends this, giving you two options: for those deeply bothered by the ability to take advantage of the slaves the option to pressure them into servicing you can be removed entirely, whereas the second retains the massage, but gives Dark Side points for requesting it, as well as adding DS points for threatening the slaves at any point.",
+      "category_tier": "Immersion / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher Mod",
+      "installation_instructions": "I personally recommend option 2.",
+      "url": ""
+    },
+    {
+      "name": "Security Spikes for K1",
+      "author": "JCarter426",
+      "description": "In all BioWare's infinite brilliance, when they ported KOTOR to PC they didn't just cap the menus to 800x600, they also broke the game's lockpicking aids so they're literally unusable. This mod can't fix that, but it can give you a workaround: either some hacky functionality that works just like spikes should, or cold, hard cash in the places where spikes would normally drop.",
+      "category_tier": "Bugfix / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "HQ Blasters",
+      "author": "Sithspecter",
+      "description": "Massively improves the appearance of almost all blaster weapons in-game without altering their original design.",
+      "category_tier": "Graphics Improvement / 1 - Essential",
+      "non_english_functionality": "PARTIAL - Some text will be blank or in English",
+      "installation_method": "TSLPatcher Mod",
+      "installation_instructions": "Extract the mod, navigate to the 'TSLPatchdata' folder, and delete the file 'keblastore.utm'. Run the installer--it will give you a single error, this is intended. After the install has completed, rename the files 'w_ionrfl_04.mdl' and 'w_ionrfl_04.mdx' to 'w_ionrfl_004.mdl' and 'w_ionrfl_004.mdx'. Delete the following files from your override directory: w_rptnblstr_004.mdl, w_rptnblstr_004.mdx, w_blstrpstl_006.mdl, w_blstrpstl_006.mdx and g1_w_rptnblstr01.uti.",
+      "url": ""
+    },
+    {
+      "name": "Crashed Republic Cruiser",
+      "author": "LDR",
+      "description": "It's difficult for me to talk about this mod without gushing about it. In my opinion, this mod is the best piece of added quest content ever made for either KOTOR or KOTOR 2: best-written, best-structured, best-balanced, best-voiced, and most sensible. It brings the player's past into the equation without mandating anything about their nature, and provides a real and immersive look at what your character's past was, and future could be, all while being lore-friendly to BOTH KOTOR 2 and The Old Republic. The only reason this mod isn't marked as Essential is because it reuses one module in a way which doesn't allow for suspension of disbelief—everything else about this mod is perfect.",
+      "category_tier": "Added Content & Immersion / 2 - Recommended",
+      "non_english_functionality": "NO",
+      "installation_method": "TSLPatcher Mod",
+      "installation_instructions": "Run the installer to install the mod, then re-run it twice more, once for each of the optional installs, if using Loadscreens in Color/HQ Blasters.",
+      "url": ""
+    },
+    {
+      "name": "Trandoshans Rescaled",
+      "author": "DarthParametric",
+      "description": "Canonically, Trandoshans are huge, as tall as Wookiees. This mod rescales them to stand about as high.",
+      "category_tier": "Immersion / 4 - Optional",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Custom Selkath Animation",
+      "author": "Alvar007",
+      "description": "At many points in the files the Selkath are called on to make an 'angry' animation type, but BioWare never made one for them. This is a custom animation for the Selkath that allow them to react properly whenever the files call for an angry emote.",
+      "category_tier": "Bugfix / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Sneak Attack Restoration",
+      "author": "N-DReW25",
+      "description": "Stealth builds already don't get enough love in KOTOR, so the restoration of Sneak Attack 10 is helpful for anyone wanting to try an alternate build. This significantly increases the damage of sneak attacks for Scoundrel players and party members when they reach level 19.",
+      "category_tier": "Mechanics Change / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "SAwL",
+      "author": "Shem, patch by A Future Pilot & DarthParametric",
+      "description": "This mod makes one of the enemies you encounter in the course of the game unexpectedly (but rationally) attack you with lightsabers and an impressive array of equipment. Defeating them grants excellent loot, but the fight will be incredibly challenging. To preserve the surprise, I have censored any information which could reveal the nature of this enemy.",
+      "category_tier": "Immersion / 3 - Suggested",
+      "non_english_functionality": "YES, however some text will be in English or blank.",
+      "installation_method": "TSLPatcher Mod, Loose-File Patch",
+      "installation_instructions": "Install the base mod first, then move the file from the patch directly to your override.",
+      "url": ""
+    },
+    {
+      "name": "HSI",
+      "author": "VarsityPuppet",
+      "description": "This mod changes a character's appearance to more closely resemble a family member whom you encounter elsewhere in the game. Some information has been censored to prevent spoilers.",
+      "category_tier": "Appearance Change / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "BDB",
+      "author": "Revanator",
+      "description": "At one point, an NPC will meet you in a place you don't expect. This mod gives them clothing to reflect the location, and what they're up to. Some information has been censored to prevent spoilers.",
+      "category_tier": "Appearance Change & Immersion / 2 - Recommended",
+      "non_english_functionality": "YES, however some text will be in English or blank.",
+      "installation_method": "TSLPatcher Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Dueling Arena Adjustment",
+      "author": "DarthParametric",
+      "description": "The Taris dueling arena is one of the best ways to make money on the planet, which means you're likely to be spending a decent chunk of time there. Unfortunately, the 'crowd' in the arena is, by default, just a few sprites stuffed in the background. They look awful, and I bet they looked awful even in 2003. Blessedly, this mod fixes that by switching the sprites out with a much more dense crowd, as well as fixing other miscellaneous issues with the arena.",
+      "category_tier": "Appearance Change, Bugfix & Graphics Improvement / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Bendak Non-Darkside Option",
+      "author": "Thrak Farelle",
+      "description": "At one point, the player is presented with the chance to kill a wanted criminal via an illegal death match. In-game this always gives Dark Side points, but the player is able to complete a similar contract just as violently and receive no DS points. This mod allows the player to decide whether they're fighting the criminal for sport or for justice.",
+      "category_tier": "Immersion / 3 - Suggested",
+      "non_english_functionality": "NO",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "This mod is not a file archive unlike all the other mods you've downloaded, just a single pre-extracted file. When you get the file, just put it directly in your Override folder.",
+      "url": ""
+    },
+    {
+      "name": "Kashyyyk Forcefield Rework",
+      "author": "DarthParametric",
+      "description": "By default, an area transition on Kashyyyk has several issues with it which forced BioWare to use some camera trickery to prevent the player from seeing the probelms. This mod fixes this, as well as some other issues with the area, allowing the area transition to work with a more normal camera angle.",
+      "category_tier": "Immersion / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Engine Lab Bench",
+      "author": "Darth Parametric",
+      "description": "Moves a bench out of the way of combat while sitting a highly valuable piece of hardware on it instead of, y'know, the floor. Helps with pathing issues.",
+      "category_tier": "Bugfix / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Missing Lamps Fix",
+      "author": "Ebmar",
+      "description": "Several lamps which are supposed to be visible had bad references assigned to them, which caused them to fail spawning in and led to phantom light sources. This mod fixes that, as well as fixing the positioning of a misaligned pillar in the same area.",
+      "category_tier": "Bugfix / 4 - Optional",
+      "non_english_functionality": "YES",
+      "installation_method": "Multi-Run TSLPatcher",
+      "installation_instructions": "Run the patcher twice, first to install the lamp fix and then once to install the optional pillar facing fix.",
+      "url": ""
+    },
+    {
+      "name": "Sith Texture Restoration",
+      "author": "A Future Pilot",
+      "description": "It turns out there were several textures planned for the game's Sith Troopers that didn't make it fully into the game. This mod restores an alternate white texture which was meant for Elite troopers, who by default simply share the appearance of regular troopers.",
+      "category_tier": "Restored Content / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Diversified Republic Soldiers",
+      "author": "DarthParametric",
+      "description": "At a certain part of the game, a doctor is treating Republic soldiers who were wounded nearby. By default, all these soldiers happen to look exactly the same—this mod varies their appearance to preserve realism.",
+      "category_tier": "Appearance Change / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "DJC",
+      "author": "DarthParametric",
+      "description": "This mod adds graphical variations to several NPCs in a critical sequence. Some information has been censored to prevent spoilers.",
+      "category_tier": "Appearance Change / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher",
+      "installation_instructions": "Recommend the Base Installation option.",
+      "url": ""
+    },
+    {
+      "name": "JRE",
+      "author": "Kexikus",
+      "description": "In the vanilla version of KOTOR that shipped, there is actually a romance option between two female characters, though it's tough as sin to proc due to a myriad of bugs (fixed by the K1CP in this mod package). Even so, it's very underdone and has no real conclusion to speak of. This mod's goal is to at least provide some basic closure to the romance and confirm that yes, you did actually proc it properly. Some information has been censored to prevent spoilers.",
+      "category_tier": "Immersion / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Dodonna's Transmission",
+      "author": "danil-ch",
+      "description": "Near the end of the game, an Admiral contacts your ship to discuss battle strategy. The player character is inexplicably missing from this cutscene in only half of its variations; this mod restores the player's presence in all of them. Some information has been censored to prevent spoilers.",
+      "category_tier": "Immersion / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher",
+      "installation_instructions": "Recommend the 'Revisited' option.",
+      "url": ""
+    },
+    {
+      "name": "Endgame Hologram Fix",
+      "author": "DarthParametric",
+      "description": "Gets rid of the ugly, 'painted' holograms used in one scene and replaces them with holograms that match the movie aesthetics, as well as those of KOTOR 2. Some information has been censored to prevent spoilers.",
+      "category_tier": "Appearance Change / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Twisted Rancor Trio Fix",
+      "author": "DarthParametric",
+      "description": "Replaces the 'painted' holograms in a puzzle sequence on the first planet with holograms that match the movie aesthetics, as well as those of KOTOR 2.",
+      "category_tier": "Appearance Change / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Final Planet Hologram Fix",
+      "author": "DarthParametric",
+      "description": "Replaces the ugly, 'painted' holograms used on one world and replaces them with holograms that match the movie aesthetics, as well as those of KOTOR 2. Some information has been censored to prevent spoilers.",
+      "category_tier": "Appearance Change / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Droid Unique VO",
+      "author": "ebmar",
+      "description": "In the basegame, a droid which is established to speak verbally instead uses beeping soundsets similar to what most utility droids do. This mod fixes that by replacing its VO with a verbal variant that matches its type. Some information has been censored to prevent spoilers.",
+      "category_tier": "Immersion / 4 - Optional",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Ajunta Pall's Swords",
+      "author": "Rece",
+      "description": "Gives the swords in the tomb of the specter Ajunta Pall unique stats (as they're rumored to be artifacts of some power), and the ability to be sold for credits. In vanilla, they were literally worthless, despite their clear value.",
+      "category_tier": "Immersion / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher",
+      "installation_instructions": "Use the version not for the Weapon Model Overhaul, unless you choose to install it separately (NOT tested and NOT recommended).",
+      "url": ""
+    },
+    {
+      "name": "Ajunta Pall's Blade",
+      "author": "Ebmar",
+      "description": "Rather than working on all the Sith specter's weapons, this mod focuses on making Ajunta Pall's true blade a visually unique representation of the terror of the Sith Lord.",
+      "category_tier": "Appearance Change / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher",
+      "installation_instructions": "Install the Sith Specter/Rece compatibility option if using Ajunta Pall's Swords.",
+      "url": ""
+    },
+    {
+      "name": "JC's Mandalorian Armor",
+      "author": "JCarter426",
+      "description": "Makes Mandalorian armor consistent throughout the game, and ensures that all models use the colored ranking system present in KOTOR.",
+      "category_tier": "Appearance Change & Immersion / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "Multi-Run TSLPatcher",
+      "installation_instructions": "Install Option A, then re-run the patcher and also install the extra textures.",
+      "url": ""
+    },
+    {
+      "name": "Weapon Stats Rebalance",
+      "author": "TK-664",
+      "description": "In the original KOTOR blasters are significantly underpowered, both in base damage and critical hit range. This mod alters blasters along the same lines KOTOR 2 did, increasing their versatility, especially early on.",
+      "category_tier": "Mechanics Change / 1 - Essential",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "HQ Gaffi Stick",
+      "author": "Fallen Guardian",
+      "description": "A higher-res version of the gaffi stick, with a custom variant included for the Tusken Chieftain.",
+      "category_tier": "Graphics Improvement / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "HD Quarterstaffs",
+      "author": "DeadMan, ported by N-DReW25",
+      "description": "Similar to the above mod, this mod retextures the quarterstaff-style weapons to HD variants.",
+      "category_tier": "Graphics Improvement / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "DTL",
+      "author": "Kexikus",
+      "description": "This mod replaces the unrealistic weapon seen during a particular training montage with a better representation. Some information has been censored to prevent spoilers.",
+      "category_tier": "Immersion / 3 - Suggested",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Logical Datapads",
+      "author": "Sdub",
+      "description": "Datapad, datapad, datapad, datapad, datapad. You wouldn't be able to tell it by looking at them, but in vanilla those are five different items. No more. This mod logically renames all datapads to actually explain what they are, so you don't risk an aneurism while looking for a specific one in your inventory.",
+      "category_tier": "Immersion / 2 - Recommended",
+      "non_english_functionality": "NO",
+      "installation_method": "TSLPatcher",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Realistic Visual Effects",
+      "author": "Shem",
+      "description": "Removes glowing particles and other unrealistic visual effects when using abilities like flurry, critical strike, and other purely physical attacks.",
+      "category_tier": "Immersion / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "NPC Alignment Fix",
+      "author": "TK-664",
+      "description": "Corrects a vanilla oversight where many enemies did not have an alignment at all, thereby rendering most items which gave bonus damage/resistances to LS/DS pointless.",
+      "category_tier": "Bugfix & Immersion / 2 - Recommended",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher",
+      "installation_instructions": "",
+      "url": ""
+    },
+    {
+      "name": "Galaxy Map Fix",
+      "author": "Kexikus & Sith Holocron",
+      "description": "Moves the planets on the K1 Galaxy Map to their canon positions, and animates the galaxy map board. Some information has been censored to prevent spoilers.",
+      "category_tier": "Graphics Improvement & Immersion / 3 - Optional",
+      "non_english_functionality": "YES",
+      "installation_method": "TSLPatcher",
+      "installation_instructions": "If intending to play in widescreen and with the widescreen menus mod (part of several additional widescreen support mods here), install this mod after the widescreen menus installation, and move the file from the optional download 'HR Menu Patch.zip' file which corresponds to your resolution to your override folder after the initial installation completes; if not intending to play in widescreen, install the base mod now.",
+      "url": ""
+    },
+    {
+      "name": "Remove Duplicate TGA/TPC",
+      "author": "Flachzangen, bash version by /u/th3w1zard1",
+      "description": "This is a script written by Flachzangen which allows you to remove duplicate .TGA or .TPC files in your game directory. Files with the .TPC filetype take priority, so for several of the patches we've downloaded which are of the .tga filetype, we need to delete any .TPC duplicates in order to get them to read properly. That's what this script will do.",
+      "category_tier": "Patch / 1 - Essential",
+      "installation_method": ".bat Patcher",
+      "installation_instructions": "Place DelDuplicateTGA-TPC (or the bash script version) in your main game folder (NOT override!), run it, say that TPC should be deleted and do not manually confirm. If you are on a Mac or other device that cannot run .bat files and the bash script is not an option for you to use, a list of all the files you will need to manually delete can be found here. **MAKE SURE THIS SCRIPT RUNS PROPERLY! On some operating systems, overzealous antivirus setups, or filepaths with particular characters in them it may fail. If the file outputs 'Finished, Press any key to continue' but does not list any files it deleted, it is not working, and if it does not work it will crash your game. You can try to resolve this by moving your Override folder to a different location (I recommend a subfolder in your Documents or Downloads directories), putting the .bat file there and running it through that directory, but if that doesn't work you will need to manually go through and delete the duplicates from the link above.",
+      "url": ""
+    },
+    {
+      "name": "Ultimate Character Overhaul Patches",
+      "author": "ShiningRedHD",
+      "description": "This is the point at which we're going to install all the various patches produced for the Ultimate Character Overhaul for any of the other texture mods which you've installed.",
+      "category_tier": "Patch & Graphics Improvement / 1 - Essential",
+      "non_english_functionality": "YES",
+      "installation_method": "Loose-File Mod",
+      "installation_instructions": "Scroll down to the 'optional files' section of the mod page. In order, install the compatch for JC's Minor Fixes, the K1CP, and then all remaining content that matches content you chose to use from the builds. Please note that, if you downloaded 'SaWL,' there is a patch for that here and I cannot censor it since I am the uploader—the name itself isn't a major spoiler so please try to ignore it as best you can. If using Thigh-High Boots for Twi'lek, only move the patch content from the NPC Replacement folder. If using Republic Soldier's New Shade, use the New Shade option.",
+      "url": ""
+    },
+    {
+      "name": "4GB Patcher",
+      "author": "Daniel Pistelli",
+      "description": "This is a program which modifies your game's executable file to be able to utilize up to 4 gigabytes of RAM, since KOTOR is a 32-bit application and by default can only utilize 2 gigabytes. This will help the game run smoothly even with the larger texture throughput this build creates, and also reduces issues caused by a memory leak which is native to the game, preventing crashes and savegame corruption.",
+      "category_tier": "Patch / 1 - Essential",
+      "installation_method": "Executable",
+      "installation_instructions": "If you intend to add widescreen support, proceed to the below section and FULLY apply your chosen widescreen resolution AND all additional widescreen support mods you choose to use BEFORE completing this step. Once you are done applying all your chosen widescreen content, you are then free to apply this patch. Additionally, DO NOT apply this step with the Steam version of the game, unless you have applied the below widescreen patch! Without the modified widescreen .exe, Steam's executable copy is encrypted in such a way that executing this patcher will break it and prevent the game from launching. Although it's unfortunate to not have access to the patch, it doesn't introduce any fatal errors or shortcomings if you are on Steam and choose not to apply widescreen so it can be used; I recommend just being sure to exit your game and restart the application from the top once every four hours or so!",
+      "url": ""
+    }
+  ]
+}
